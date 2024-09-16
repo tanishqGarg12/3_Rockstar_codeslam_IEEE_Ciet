@@ -1,15 +1,17 @@
-import Group from "./components/group"
-import group from "./components/group"
-import Section4 from "./components/section4"
-import Section5 from "./components/section5"
-import Footer from "./components/Footer"
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
 export default function App() {
   return (
-    <div className="h-screen">
-      <Group/>
-      <Section4/>
-      <Section5/>
-      <Footer/>
+    <div className='bg-black'>
+    <div className='text-xl'>
+      Hello world!
+    </div>
+    <div className='bg-red-500'>
+      ddscs
+    </div>
     
     </div>
   )
