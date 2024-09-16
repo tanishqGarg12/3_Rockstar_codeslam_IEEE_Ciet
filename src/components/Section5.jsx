@@ -3,7 +3,7 @@ import ldki from "../assets/ldki.png"; // Make sure the file extension is includ
 import ldki2 from "../assets/ldki2.png"; // Make sure the file extension is included if needed
 import section5 from "../assets/section5.png"; // Make sure the file extension is included if needed
 
-const Section5 = () => {
+const FifthSection = () => {
   return (
     <div className="relative h-screen w-full bg-cover bg-center" 
          style={{ backgroundImage: `url(${section5})` }}> 
@@ -41,4 +41,4 @@ const Section5 = () => {
   );
 };
 
-export default Section5;
+export default FifthSection;
